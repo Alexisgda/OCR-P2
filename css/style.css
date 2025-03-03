@@ -558,6 +558,11 @@ a {
     color: var(--main-color);
   }
 
+
+  .info-group{
+    padding-top: 30px;
+  }
+
   .trouver-hebergement {
     margin: 20px;
   }
