@@ -157,6 +157,7 @@ header {
   border-color: var(--filter-bg-color);
   height: 51px;
   font-weight: bold;
+  border: 2px solid var(--filter-bg-color);
 }
 
 .search-button {
@@ -186,6 +187,8 @@ header {
   margin: 0 10px;
   cursor: pointer;
   font-weight: bold;
+  align-items: center;
+  gap: 10px;
 }
 
 .filter:hover {
@@ -455,6 +458,7 @@ a {
 
   .filter {
     margin-left: 0;
+    font-size: 16px;
   }
 
   .filters-bloc h3 {
@@ -558,8 +562,11 @@ a {
     color: var(--main-color);
   }
 
+  .search-input {
+    width: 80%;
+  }
 
-  .info-group{
+  .info-group {
     padding-top: 30px;
   }
 
@@ -568,24 +575,27 @@ a {
   }
 
   .search-bar {
-    margin: 0 20px;
-  }
-
-  .filter {
-    min-width: 120px;
-    margin: 0;
+    margin: 0 8px 0px 20px;
   }
 
   .filters-bloc {
-    flex-wrap: wrap;
-    padding: 20px;
+    padding: 35px 20px;
     margin: 0;
   }
 
   .filters {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
   }
+
+  .filter {
+    min-width: calc(41% - 15px);
+    margin: 0;
+    font-size: 16px;
+    padding: 4px 17px;
+    width: 25%;
+  }
+
 
   .circle {
     width: 24px;
@@ -666,5 +676,9 @@ a {
 
   .footer-container {
     flex-direction: column;
+  }
+
+  .footer-column {
+    width: 100%;
   }
 }
