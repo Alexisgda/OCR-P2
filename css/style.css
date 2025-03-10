@@ -49,7 +49,6 @@ header {
   display: flex; /* Ajouté pour bien gérer l'espacement entre les éléments */
 }
 
-
 .nav-links li {
   margin: 0 10px;
   display: list-item;
@@ -60,7 +59,7 @@ header {
   padding-top: 16px;
   transition: color 0.3s ease-in-out;
 }
-.nav-links li:hover, 
+.nav-links li:hover,
 .nav-links li.active {
   color: var(--main-color);
 }
@@ -79,7 +78,6 @@ header {
 
 .nav-links li:hover::before,
 .nav-links li.active::before {
-  
   transition: transform 0s ease-in-out;
   transform: scaleX(1);
 }
@@ -249,7 +247,7 @@ header {
   padding-top: 30px;
 }
 .new-card {
-  width: calc(33% - 30px); 
+  width: calc(33% - 30px);
   height: 200px;
   background-color: white;
   overflow: hidden;
@@ -416,7 +414,6 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
   .nav-links li.active::before {
     transform: scaleX(1);
   }
@@ -569,7 +566,7 @@ a {
     margin: 0;
     font-size: 16px;
     padding: 4px 17px;
-    width: calc(50% - 43px); 
+    width: calc(50% - 43px);
     /* Ajuste la largeur des filtres 
       Border + padding + moitié du gap
       (2px*2)+ (17px*2) + 5px 
@@ -580,7 +577,6 @@ a {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-
 
   .circle {
     width: 24px;
@@ -664,6 +660,6 @@ a {
   }
 
   .footer-column {
-    width: calc(100% - 40px);;
+    width: calc(100% - 40px);
   }
 }
