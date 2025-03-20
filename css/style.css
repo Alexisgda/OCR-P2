@@ -623,7 +623,7 @@ a {
   }
 
   .search-button {
-    box-shadow: 0px 4px 4px 0px var(--color-black);
+    box-shadow: 0px 4px 4px 0px var(--color-light-gray);
     width: 50px;
     height: 51px;
     border-radius: 15px;
